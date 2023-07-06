@@ -1,0 +1,398 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: rgb(245, 252, 255);
+}
+
+.kepalanavigasi {
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(142, 173, 185);
+    width: auto;
+    height: auto;
+
+    border-bottom-style: solid;
+    border-bottom-color: rgb(160, 198, 213);
+}
+
+
+.tombol{
+    margin: 20px;
+}
+
+#navigasi {
+    display: flex;
+    list-style-type: none;
+
+
+}
+
+#navigasi li a:hover{
+    color: rgb(107, 170, 195);
+    transition: all .2s ease-in-out;
+}
+
+#navigasi li a{
+    font-family: "roboto",sans-serif;
+    text-decoration: none;
+    color: rgb(57, 113, 135);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 5px;
+    box-shadow: 1px 1px  5px ;
+
+}
+
+
+
+.topjudul {
+    width: auto;
+    height: 120px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.jdl1 {
+    display: flex;
+    justify-content: center;
+}
+.jdl2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.kt1 {
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+
+.sliding img{
+
+    border-radius: 15px;
+    margin-left: 7%;
+    margin-top: 14%;
+    width: 700px;
+    height: 400px; 
+    box-shadow: 2px 2px  10px rgb(133, 184, 185);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ; 
+    grid-gap: 0px; 
+}
+  
+.kontak {
+    height: 500px;
+    width: 500px;
+    margin-left: 15%;
+    margin-top: 14%;
+    padding: 7%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 2px 2px  10px rgb(133, 184, 185);
+
+}
+
+#kontak_hub {
+    
+    color: rgb(29, 74, 92);
+    font-size: 350%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#kontak_hub2 {
+    font-size: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(106, 154, 173)   
+}
+
+#kontak_hub3 {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(70, 117, 136)   
+}
+
+.fa-user {
+    margin-right: 10px;
+}
+.fa-envelope {
+    margin-right: 10px;
+}
+
+.fa-message{
+    margin-right: 10px;
+}
+
+.BOX_format {
+    margin-top: 5%;
+    margin: 31 auto;
+    width: 80%;
+    border-bottom: 1px solid rgb(57, 113, 135);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.BOX_format input {
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color:rgb(57, 113, 135) ;
+}
+
+.kirim button:hover{
+    color: rgb(107, 170, 195);
+    transition: all .2s ease-in-out;
+}
+
+.kirim button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10%;
+    width: 80% ;
+    height: 40px;
+    background: white;
+    border-radius: 10px;
+    border: 3px solidf rgb(57, 113, 135);
+    border-color: rgb(57, 113, 135) ;
+    box-shadow: 0px 0px  3px;
+}
+
+.testi {
+    display: flex;
+    margin-left: 15%;
+    margin-top: -3%;
+    color: rgb(109, 130, 138);
+    font-size: 120%;
+
+}
+
+
+.testi_orang{
+    display: grid ;
+    margin-left: 7%;
+    margin-top: 0%;
+
+}
+
+.testi_kata p{
+    display: grid;
+    grid: 1 1 1;
+    margin-left: 12%;
+    margin-top: -3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        display: grid;
+        row-gap: 10px
+}
+
+
+.testi_orang img{
+    display: flex;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+
+
+}
+
+.line {
+    width: 30%;
+    height: 5px;
+    background-color: rgb(198, 223, 233);
+    margin: 10px 0;
+    border-radius: 30px;
+}
+
+.penjelasan {
+    color: rgb(29, 74, 92);
+    font-size: 120%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 5%;
+    margin-bottom: 2%;
+
+}
+
+.fitur1 {
+    color: rgb(29, 74, 92);
+    font-size: 120%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    margin-left: 10%;
+}
+
+.fitur2 {
+    color: rgb(29, 74, 92);
+    font-size: 120%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    margin-left: 10%;
+}
+
+.fitur3 {
+    color: rgb(29, 74, 92);
+    font-size: 120%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    margin-left: 10%;
+}
+
+.fa-1 {
+    margin-right: 1%;
+}
+.fa-2 {
+    margin-right: 1%;
+}
+.fa-3 {
+    margin-right: 1%;
+}
+
+.banner_paket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1%;
+    background-color: rgb(142, 173, 185);
+    width: auto;
+    height: 200px;
+
+}
+
+.paket {
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 250%;
+}
+
+.promo {
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 5px;
+    margin-bottom: 5%;
+}
+
+
+.paket_logo {
+    margin-bottom: 1%;
+}
+
+.paket1 {
+    color: rgb(29, 74, 92);
+    font-size: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.paket2 {
+    color: rgb(29, 74, 92);
+    font-size: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.paket3 {
+    color: rgb(29, 74, 92);
+    font-size: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+.line {
+    display: flex;  
+    width: 70%;
+    height: 5px;
+    background-color: rgb(198, 223, 233);
+    border-radius: 30px;
+
+}
+
+.penutup {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.judul_penutup {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+ }
+
+.kata_penutup {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+ }
+
+
+ 
+.kirim1 button:hover{
+    color: rgb(107, 170, 195);
+    transition: all .2s ease-in-out;
+}
+
+
+.kirim1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kirim1 button{
+    margin-top: 2%;
+    width: 80% ;
+    height: 50px;
+    background: rgb(209, 229, 237);
+    border-radius: 10px;
+    border: 3px solidf rgb(57, 113, 135);
+    border-color: rgb(57, 113, 135) ;
+    box-shadow: 0px 0px  3px;
+    
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#logo2 {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.sliding {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    object-fit: cover;
+}
+
